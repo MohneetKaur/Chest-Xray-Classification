@@ -21,4 +21,4 @@ black==22.8.0 # Automatically formats Python code according to a style guide.
 
 
 # When you will run this file, automatically setup.py file will execute
-#-e . # -e is for setup.py where e means execute and . means find package in current directory
+-e . # -e is for setup.py where e means execute and . means find package in current directory
