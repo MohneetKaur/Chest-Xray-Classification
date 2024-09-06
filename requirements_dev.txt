@@ -1,0 +1,24 @@
+bentoml==1.0.10 # Packages machine learning models for deployment.
+torchvision==0.14.1 # Provides tools for computer vision tasks using PyTorch.
+joblib==1.2.0 # Saves and loads Python objects efficiently.
+tqdm==4.64.1 # Creates progress bars for iterables.
+pip-chill==1.0.1 # Installs Python packages from GitHub repositories.
+wincertstore==0.2 # Interacts with the certificate store on Windows systems.
+
+dvc # Version controls data for machine learning projects.
+mlflow # Tracks experiments and manages the machine learning lifecycle.
+ipykernel # Provides kernels for interactive computing within the Jupyter ecosystem (e.g., Jupyter Notebook, JupyterLab).
+numpy # Offers powerful tools for numerical computations and array manipulation in Python.
+pandas # Provides high-performance data structures and data analysis tools for working with tabular data in Python.
+seaborn # Builds on top of matplotlib to create informative and aesthetically pleasing statistical visualizations in Python.
+
+
+pytest==7.1.3 # Writes and runs tests for Python code.
+tox==3.25.1 # Runs tests in multiple Python environments.
+flake8==5.0.4 # Catches stylistic and formatting errors in Python code.
+mypy==0.971 # Statically checks Python code for type errors before running it.
+black==22.8.0 # Automatically formats Python code according to a style guide.
+
+
+# When you will run this file, automatically setup.py file will execute
+#-e . # -e is for setup.py where e means execute and . means find package in current directory
