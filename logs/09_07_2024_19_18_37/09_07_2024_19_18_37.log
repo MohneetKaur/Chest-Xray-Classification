@@ -1,0 +1,16 @@
+[ 2024-09-07 19:18:38,746 ] 77 root - INFO - Entered the run_pipeline method of TrainPipeline class
+[ 2024-09-07 19:18:38,747 ] 25 root - INFO - Entered the start_data_ingestion method of TrainPipeline class
+[ 2024-09-07 19:18:38,747 ] 28 root - INFO - Getting the data from s3 bucket
+[ 2024-09-07 19:18:38,747 ] 35 root - INFO - Entered the initiate_data_ingestion method of Data ingestion class
+[ 2024-09-07 19:18:38,747 ] 19 root - INFO - Entered the get_data_from_s3 method of Data ingestion class
+[ 2024-09-07 19:18:40,810 ] 27 root - INFO - Exited the get_data_from_s3 method of Data ingestion class
+[ 2024-09-07 19:18:40,812 ] 47 root - INFO - Exited the initiate_data_ingestion method of Data ingestion class
+[ 2024-09-07 19:18:40,812 ] 36 root - INFO - Got the train_set and test_set from s3
+[ 2024-09-07 19:18:40,812 ] 38 root - INFO - Exited the start_data_ingestion method of TrainPipeline class
+[ 2024-09-07 19:18:40,812 ] 50 root - INFO - Entered the start_data_transformation method of TrainPipeline class
+[ 2024-09-07 19:18:40,812 ] 122 root - INFO - Entered the initiate_data_transformation method of Data transformation class
+[ 2024-09-07 19:18:40,812 ] 27 root - INFO - Entered the transforming_training_data method of Data transformation class
+[ 2024-09-07 19:18:40,813 ] 49 root - INFO - Exited the transforming_training_data method of Data transformation class
+[ 2024-09-07 19:18:40,813 ] 61 root - INFO - Entered the transforming_testing_data method of Data transformation class
+[ 2024-09-07 19:18:40,813 ] 77 root - INFO - Exited the transforming_testing_data method of Data transformation class
+[ 2024-09-07 19:18:40,821 ] 90 root - INFO - Entered the data_loader method of Data transformation class
