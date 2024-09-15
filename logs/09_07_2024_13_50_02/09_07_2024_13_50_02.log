@@ -1,7 +1,0 @@
-[ 2024-09-07 13:50:02,267 ] 17 root - INFO - Getting the data from s3 bucket
-[ 2024-09-07 13:50:02,267 ] 35 root - INFO - Entered the initiate_data_ingestion method of Data ingestion class
-[ 2024-09-07 13:50:02,267 ] 19 root - INFO - Entered the get_data_from_s3 method of Data ingestion class
-[ 2024-09-07 13:50:13,353 ] 27 root - INFO - Exited the get_data_from_s3 method of Data ingestion class
-[ 2024-09-07 13:50:13,354 ] 47 root - INFO - Exited the initiate_data_ingestion method of Data ingestion class
-[ 2024-09-07 13:50:13,354 ] 25 root - INFO - Got the train_set and test_set from s3
-[ 2024-09-07 13:50:13,356 ] 27 root - INFO - Exited the start_data_ingestion method of TrainPipeline class

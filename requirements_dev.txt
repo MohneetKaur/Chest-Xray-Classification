@@ -1,4 +1,4 @@
-bentoml==1.0.10 # Packages machine learning models for deployment.
+bentoml==1.0.25 # Packages machine learning models for deployment.
 torchvision==0.14.1 # Provides tools for computer vision tasks using PyTorch.
 joblib==1.2.0 # Saves and loads Python objects efficiently.
 tqdm==4.64.1 # Creates progress bars for iterables.
@@ -21,4 +21,4 @@ black==22.8.0 # Automatically formats Python code according to a style guide.
 
 
 # When you will run this file, automatically setup.py file will execute
--e . # -e is for setup.py where e means execute and . means find package in current directory
+#-e . # -e is for setup.py where e means execute and . means find package in current directory

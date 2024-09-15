@@ -17,3 +17,47 @@
 +defaults/win-64::xz-5.4.6-h8cc25b3_1
 +defaults/win-64::zlib-1.2.13-h8cc25b3_1
 # update specs: ['python=3.10']
+==> 2024-09-10 20:13:02 <==
+# cmd: c:\Users\HP\anaconda3\Scripts\conda-script.py install -c conda-forge --prefix c:/Users/HP/Documents/projects/Chest-Xray-Classification/venv ipykernel -y
+# conda version: 4.14.0
+-defaults/win-64::ca-certificates-2024.7.2-haa95532_0
++conda-forge/noarch::asttokens-2.4.1-pyhd8ed1ab_0
++conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0
++conda-forge/noarch::comm-0.2.2-pyhd8ed1ab_0
++conda-forge/noarch::decorator-5.1.1-pyhd8ed1ab_0
++conda-forge/noarch::exceptiongroup-1.2.2-pyhd8ed1ab_0
++conda-forge/noarch::executing-2.1.0-pyhd8ed1ab_0
++conda-forge/noarch::importlib-metadata-8.4.0-pyha770c72_0
++conda-forge/noarch::importlib_metadata-8.4.0-hd8ed1ab_0
++conda-forge/noarch::ipykernel-6.29.5-pyh4bbf305_0
++conda-forge/noarch::ipython-8.27.0-pyh7428d3b_0
++conda-forge/noarch::jedi-0.19.1-pyhd8ed1ab_0
++conda-forge/noarch::jupyter_client-8.6.2-pyhd8ed1ab_0
++conda-forge/noarch::matplotlib-inline-0.1.7-pyhd8ed1ab_0
++conda-forge/noarch::nest-asyncio-1.6.0-pyhd8ed1ab_0
++conda-forge/noarch::packaging-24.1-pyhd8ed1ab_0
++conda-forge/noarch::parso-0.8.4-pyhd8ed1ab_0
++conda-forge/noarch::pickleshare-0.7.5-py_1003
++conda-forge/noarch::platformdirs-4.3.2-pyhd8ed1ab_0
++conda-forge/noarch::prompt-toolkit-3.0.47-pyha770c72_0
++conda-forge/noarch::pure_eval-0.2.3-pyhd8ed1ab_0
++conda-forge/noarch::pygments-2.18.0-pyhd8ed1ab_0
++conda-forge/noarch::python-dateutil-2.9.0-pyhd8ed1ab_0
++conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
++conda-forge/noarch::stack_data-0.6.2-pyhd8ed1ab_0
++conda-forge/noarch::traitlets-5.14.3-pyhd8ed1ab_0
++conda-forge/noarch::typing_extensions-4.12.2-pyha770c72_0
++conda-forge/noarch::wcwidth-0.2.13-pyhd8ed1ab_0
++conda-forge/noarch::zipp-3.20.1-pyhd8ed1ab_0
++conda-forge/win-64::ca-certificates-2024.8.30-h56e8100_0
++conda-forge/win-64::jupyter_core-5.7.2-py310h5588dad_0
++conda-forge/win-64::libsodium-1.0.18-h8d14728_1
++conda-forge/win-64::python_abi-3.10-2_cp310
++conda-forge/win-64::pyzmq-24.0.1-py310hcd737a0_1
++conda-forge/win-64::tornado-6.2-py310h8d17308_1
++conda-forge/win-64::ucrt-10.0.22621.0-h57928b3_0
++conda-forge/win-64::zeromq-4.3.4-h0e60522_1
++defaults/win-64::debugpy-1.6.7-py310hd77b12b_0
++defaults/win-64::psutil-5.9.0-py310h2bbff1b_0
++defaults/win-64::pywin32-305-py310h2bbff1b_0
+# update specs: ['ipykernel']

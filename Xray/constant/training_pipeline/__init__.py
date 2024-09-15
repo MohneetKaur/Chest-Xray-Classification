@@ -50,7 +50,7 @@ SHUFFLE: bool = False
 PIN_MEMORY: bool = True
 
 
-#model trainer constants
+#  model trainer constants
 
 TRAINED_MODEL_DIR: str = "trained_model"
 
