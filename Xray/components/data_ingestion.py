@@ -1,7 +1,7 @@
 import sys
 
 from Xray.cloud_storage.s3_operation import S3Operation
-from Xray.constant import *
+from Xray.constant.training_pipeline import *
 from Xray.entity.artifact_entity import DataIngestionArtifact
 from Xray.entity.config_entity import DataIngestionConfig
 from Xray.exception import XRayException

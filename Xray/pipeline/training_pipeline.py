@@ -3,12 +3,14 @@ from Xray.components.data_ingestion import DataIngestion
 from Xray.components.data_transformation import DataTransformation
 from Xray.components.model_training import ModelTrainer
 from Xray.components.model_evaluation import ModelEvaluation
+from Xray.components.model_pusher import ModelPusher
 
 from Xray.entity.artifact_entity import (
     DataIngestionArtifact,
     DataTransformationArtifact,
     ModelTrainerArtifact,
     ModelEvaluationArtifact,
+    ModelPusherArtifact
 )
 
 from Xray.entity.config_entity import (
@@ -16,6 +18,7 @@ from Xray.entity.config_entity import (
     DataTransformationConfig,
     ModelTrainerConfig,
     ModelEvaluationConfig,
+    ModelPusherConfig,
 )
 
 from Xray.exception import XRayException
@@ -27,6 +30,7 @@ class TrainPipeline:
         self.data_transformation_config=DataTransformationConfig()
         self.model_trainer_config = ModelTrainerConfig()
         self.model_evaluation_config = ModelEvaluationConfig()
+        self.model_pusher_config = ModelPusherConfig()
 
         
     def start_data_ingestion(self) -> DataIngestionArtifact:

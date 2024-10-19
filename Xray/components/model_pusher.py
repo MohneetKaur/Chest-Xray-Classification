@@ -1,10 +1,11 @@
+import os
 import sys
-from Xray.cloud_storage.s3_ops import S3Operation
 
+from Xray.entity.artifact_entity import ModelPusherArtifact
 from Xray.entity.config_entity import ModelPusherConfig
 from Xray.exception import XRayException
 from Xray.logger import logging
-
+from Xray. components.data_ingestion import *
 
 class ModelPusher:
     def __init__(self,model_pusher_config: ModelPusherConfig):
