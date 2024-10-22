@@ -19,7 +19,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
-          repository: sunnysavita10/deeplearningupdatedwithstreamlit
+          repository: MohneetKaur/Chest-Xray-Classification
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
 
@@ -36,7 +36,7 @@ jobs:
     name: Push Docker image to Docker hub
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout out the repo
+      - name: Checkout out the repo # common for every 
         uses: actions/checkout@v3
   
       - name: Setup Docker Build
