@@ -5,13 +5,14 @@ from Xray.entity.artifact_entity import ModelPusherArtifact
 from Xray.entity.config_entity import ModelPusherConfig
 from Xray.exception import XRayException
 from Xray.logger import logging
-from Xray. components.data_ingestion import *
+from Xray.components.data_ingestion import *
+from Xray.cloud_storage.s3_ops import *
 
 class ModelPusher:
     def __init__(self,model_pusher_config: ModelPusherConfig):
 
         self.model_pusher_config = model_pusher_config
-        self.s3 = S3Operation()
+        self.s3 = S3operation()
 
 
     
@@ -30,7 +31,7 @@ class ModelPusher:
             self.s3.upload_file(
                 "model/model.pt",
                 "model.pt",
-                "lungxray24",
+                "xraylungproject",
                 remove=False,
             )
             logging.info("Uploaded best model to s3 bucket")
